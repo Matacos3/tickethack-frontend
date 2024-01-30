@@ -9,7 +9,9 @@
 <body>
   <header>
 
-    <div id="logo"></div>
+    <div id="logo">
+      <h1>TicketHack</h1>
+    </div>
     <div id="links">
       <a href="./cart.html">Cart</a>
       <a href="./index.html">Bookings</a>
@@ -19,9 +21,27 @@
     <h1>Explore the world effortlessly by train!</h1>
     <h2>Compare, book and enjoy cheap prices for train tickets: your journey starts on TicketHack</h2>
     <div id="card-container">
-      <div id="form" class="card"></div>
-      <div id="result-display" class="card no-trip">
-        <img src="." alt="">
+      <div id="form" class="card">
+        <div id="departure-arrival">
+          <input type="text" name="" id="departure-city" placeholder="Departure">
+          <input type="text" name="" id="arrival-city" placeholder="Arival">
+        </div>
+
+        <input type="date">
+        <input type="submit" id="submit" class="btn">
+      </div>
+      <div id="result-display" class="card">
+        <div id="default" class="result-display-content">
+          <img src="./images/train.png" alt="Image de train">
+          <h3>It’s time to book your future trip</h3>
+        </div>
+        <div id="no-train" class="result-display-content">
+          <img src="./images/notfound.png" alt="notfound">
+          <h3>No trip found</h3>
+        </div>
+        <div id="result-display-found">
+
+        </div>
       </div>
     </div>
   </div>

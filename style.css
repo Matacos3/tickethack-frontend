@@ -1,0 +1,28 @@
+:root{
+  --green:#4FAA91;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+
+header{
+  height: 7vh;
+  
+}
+
+#logo{
+  color:var(--green) ;
+}
+#main-container{
+  background: url("./images/background.jpg") center/cover;
+  height: 93vh;
+}
