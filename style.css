@@ -120,6 +120,15 @@ input{
   height: 50%;
   /* margin: 1px 0 1px; */
 }
+
+.btn{
+  background: var(--green);
+}
+
+#submit{
+  cursor: pointer;
+}
+
 #limiter{
   height: 1px;
   width: 95%;
