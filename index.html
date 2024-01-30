@@ -10,20 +10,25 @@
   <header>
 
     <div id="logo">
-      <h1>TicketHack</h1>
+      <a href="./booking.html">
+        <h1>TicketHack</h1>
+      </a>
     </div>
     <div id="links">
-      <a href="./cart.html">Cart</a>
-      <a href="./index.html">Bookings</a>
+      <a href="./cart.html" class="link">Cart</a>
+      <a href="./index.html" class="link">Bookings</a>
     </div>
   </header>
   <div id="main-container">
-    <h1>Explore the world effortlessly by train!</h1>
-    <h2>Compare, book and enjoy cheap prices for train tickets: your journey starts on TicketHack</h2>
+    <div id="main-container-content">
+      <h1>Explore the world effortlessly by train!</h1>
+      <h2>Compare, book and enjoy cheap prices for train tickets: your journey starts on TicketHack</h2>
+    </div>
     <div id="card-container">
       <div id="form" class="card">
         <div id="departure-arrival">
           <input type="text" name="" id="departure-city" placeholder="Departure">
+          <div id="limiter"></div>
           <input type="text" name="" id="arrival-city" placeholder="Arival">
         </div>
 
@@ -33,6 +38,7 @@
       <div id="result-display" class="card">
         <div id="default" class="result-display-content">
           <img src="./images/train.png" alt="Image de train">
+          <div id="green-limiter"></div>
           <h3>It’s time to book your future trip</h3>
         </div>
         <div id="no-train" class="result-display-content">
