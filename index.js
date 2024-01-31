@@ -6,7 +6,8 @@ function setEvent(){
         fetch(`http://localhost:3000/cart/${this.parentNode.id}`)
         .then(response => response.json())
         .then(data =>{
-          console.log("success")
+          console.log("success");
+          console.log(data)
           window.location.assign("./cart.html")
         })
       }

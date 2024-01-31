@@ -195,7 +195,7 @@
     padding: 10px;
   }
 
-  #container {
+  /* #container {
     display: flex;
     border: 0.5px black solid;
       
@@ -213,7 +213,7 @@
         grid-column-start: 2;
         grid-column-end: 4;
       }
-
+ */
 
 
 

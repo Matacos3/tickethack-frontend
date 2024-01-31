@@ -176,7 +176,7 @@ input{
   align-items: center;
   /* justify-content: space-around ; */
 
-  overflow-y: scroll;
+  overflow-y: auto;
   /* overflow-x: visible; */
   /* scroll-behavior: auto; */
 
@@ -193,4 +193,69 @@ input{
   margin: 5px 0 5px;
   height: 50px;
   padding: 10px;
+}
+
+#container{
+  height: 93vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(214, 214, 214);
+}
+
+.content{
+  background: white;
+  width: 90%;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.content > h4{
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+#content-empty{
+  display: flex;
+  justify-content: center;
+
+}
+
+#content-full{
+  display: none;
+justify-content: space-between;
+
+
+}
+#cart-display{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#resume-cart{
+  background: rgb(0, 0, 71);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+#total{
+  color: white;
+}
+
+.trip-in-cart{
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  background: grey;
+  padding: 5px;
+  border-radius: 5px;
 }
